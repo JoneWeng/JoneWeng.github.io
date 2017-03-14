@@ -4,16 +4,18 @@ title:      Mocha Scope 之间执行顺序
 date:       2017-03-12 20:16:00
 author:     JoneWeng
 summary:    mocha order of execute
-categories: jekyll
-thumbnail:  jekyll
+categories: Node.js
+thumbnail:  coffee
 minutes : 2
 tags:
  - Mocha
- - nodejs
+ - Node.js
  - test
 ---
 
-### 测试代码
+### _TL;DR_
+
+
 {% highlight ruby %}
 describe('outer', function() {
     before(function() {
@@ -57,5 +59,5 @@ describe('outer', function() {
 
 {% endhighlight %}
 
-## 输出
-![result](https://ww4.sinaimg.cn/large/006tKfTcly1fdlis7tmxij30ha0bi75e.jpg)
+### 输出
+![result](https://ww4.sinaimg.cn/large/006tKfTcly1fdmpt2foywj30qu0c4wfp.jpg)
